@@ -22,6 +22,7 @@ Cookie，指某些网站为了辨别用户身份、进行session跟踪而储存�
 它们的关系：CookieJar —-派生—->FileCookieJar  —-派生—–>MozillaCookieJar和LWPCookieJar
 
 + **获取Cookie保存到变量**
+
 首先，我们先利用CookieJar对象实现获取cookie的功能，存储到变量中，代码```cookie.py```先来感受一下
 ```
 import urllib2
@@ -95,17 +96,7 @@ ignore_expires: save even cookies that have expiredThe file is overwritten if it
 
 则覆盖原文件写入，在这里，我们将这两个全部设置为True。运行之后，cookies将被保存到cookie.txt文件中，我们查看一下内容，
 
-> # Netscape HTTP Cookie File
-  # http://curl.haxx.se/rfc/cookie_spec.html
-  # This is a generated file!  Do not edit.
->    
-  .baidu.com	TRUE	/	FALSE	3619318550	BAIDUID	A073E88A3F21855B0A4181C4018BD503:FG=1
-  .baidu.com	TRUE	/	FALSE	3619318550	BIDUPSID	A073E88A3F21855B0A4181C4018BD503
-  .baidu.com	TRUE	/	FALSE		H_PS_PSSID	19638_1446_17945_17001_12389_20857_20836
-  .baidu.com	TRUE	/	FALSE	3619318550	PSTM	1471834921
-  www.baidu.com	FALSE	/	FALSE		BDSVRTM	0
-  www.baidu.com	FALSE	/	FALSE		BD_HOME	0
-
+![](http://qiniu.cuiqingcai.com/wp-content/uploads/2015/02/QQ%E6%88%AA%E5%9B%BE20150215215136.jpg)
 
 + **从文件中获取Cookie并访问**
 
