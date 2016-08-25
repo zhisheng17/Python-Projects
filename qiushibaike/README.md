@@ -30,7 +30,7 @@
 
 首先我们审查元素看一下，按浏览器的F12，截图如下:
 
-![](https://github.com/zhisheng17/Python-Projects/blob/master/%E7%B3%97%E4%BA%8B%E7%99%BE%E7%A7%91%E6%AE%B5%E5%AD%90%E7%88%AC%E5%8F%96/picture/%E7%B3%97%E4%BA%8B%E7%99%BE%E7%A7%91.png?raw=true)
+![](http://img.blog.csdn.net/20160825154604645)
 
 我们可以看到，每一个段子都是```<div class=”article block untagged mb15″ id=”…”>…</div>```包裹的内容。
 
@@ -110,7 +110,7 @@ except urllib2.URLError, e:
 
 运行一下看下效果:
 
-![](https://github.com/zhisheng17/Python-Projects/blob/master/%E7%B3%97%E4%BA%8B%E7%99%BE%E7%A7%91%E6%AE%B5%E5%AD%90%E7%88%AC%E5%8F%96/picture/spider1.png?raw=true)
+![](http://img.blog.csdn.net/20160825154628114)
 
 恩，带有图片的段子已经被剔除啦。
 
