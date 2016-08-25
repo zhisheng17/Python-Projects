@@ -1,6 +1,8 @@
 #-*-coding:utf8-*-
 #created by 10412
 
+#在Spiders-qiushibaike.py基础上，爬取了百科段子的评论。按C查看当前这个糗事的评论，当切换到查看评论时，
+# 换回车显示下一个评论,按Q退出回到查看糗事。糗事段子页数是一页一页加载的，如果你已经看完所有的糗事，就会自动退出！
 
 import urllib
 import urllib2
