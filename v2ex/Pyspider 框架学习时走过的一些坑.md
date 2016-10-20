@@ -182,3 +182,4 @@ if __name__ == '__main__':
 
 参考我写的博客文章 ： [《**PySpider HTTP 599: SSL certificate problem: unable to get local issuer certificate错误**》](http://blog.csdn.net/tzs_1041218129/article/details/52853465)
 
+### 3. V2EX 网站更新，目前全站都是用的 Https, 自然在代码中也必须用 Https, 否则一直没用。自己在这个坑里蹲了很久。
